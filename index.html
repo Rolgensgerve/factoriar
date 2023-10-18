@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <div >
+        <input type="number" id="ingreso"/>
+        <br/>
+        <button type="button" onclick="factorial()">F!</button>
+        <br/>
+        <label id="resulta"></label>
+
+    </div>
+
+    <script>
+
+
+        
+
+       
+        
+
+     
+        function factorial (){
+                var num = document.getElementById("ingreso").value;
+                 var  result =1;
+                  for(var x =1; x<=num; x++){
+                 result = result *x
+                 } 
+      document.getElementById("resulta").innerHTML= `factorial de ${num} es ${result}`;}
+      
+
+    
+      
+</script>
+</body>
+</html>
